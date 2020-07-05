@@ -1,0 +1,150 @@
+
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  color: white;
+  /*padding: 16px;
+  font-size: 16px;
+  border: none;*/
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+ padding:20px 10px 35px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.3rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu{
+	background-color: #736EE8;
+	display: grid;
+	
+	
+
+}
+.menu:hover{
+background-color: #463FE4;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  -webkit-box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 5px;
+    -moz-box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 5px;
+    -o-box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 5px;
+    box-shadow:rgba(0,0,0,0.3) 0px 2px 2px, inset rgba(0,0,0,0.1) 0px -5px 50px;
+}
+nav {
+  position: fixed ;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+/*below is class for navigation bar list*/
+.zone{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
+	margin: auto 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5rem;
+	
+	
+	
+	
+	 
+}
+
+
+/*below is class for elements in nav bar*/
+.orange{
+
+	padding:35px 20px 35px 10px;
+	list-style: none;
+
+
+}
+/*below is class for right menu element*/
+.push{
+	margin-left: auto;
+	padding-right: 40px;
+}
+/*below is class for hyperlink texts in nav bar*/
+.mn{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.mn:hover{
+	color: #B1B1B1;
+	transition: color 0.5s ease-out;
+}
+/*sticky style for nav bar*/
+
+
+li{
+	list-style: none;
+}
+.cover{
+	show height: auto;
+    height:45rem ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.cov{
+
+	width: 30rem;
+
+}
+.typewrite{
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	color: #463FE4;
+	text-decoration: none;
+}
+footer{
+	display: flex;
+	justify-content:flex-end;
+	align-items: flex-end;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7rem;
+	color: #868686;
+	
+	padding: 10px 0px 0px 0px;
+	position: fixed;
+	right: 1%;
+	bottom: 0;
+	text-align: center;
+	
+
+	}
+
